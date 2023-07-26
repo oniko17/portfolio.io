@@ -260,6 +260,7 @@ a {
   width: 70%;
   height: 50%;
   border: 1px solid white;
+  overflow: hidden;
 }
 .mini-devel {
   display: flex;
