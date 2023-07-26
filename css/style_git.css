@@ -143,8 +143,8 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding-left: var(--wrap-padding);
-  padding-right: var(--wrap-padding);
+  margin-left: var(--wrap-padding);
+  margin-right: var(--wrap-padding);
   padding-bottom: calc(var(--index) / 0.8);
   padding-top: calc(var(--wrap-padding) / 4);
   border-top: 3px solid white;
@@ -339,9 +339,11 @@ a {
   border-radius: 7px;
 }
 @media (max-width: 681px) {
-.wrap{
+body{
   --menu-font: 12px;
+  background-color: black;
 }
+
 }
 
 @media (max-width: 635px) {
